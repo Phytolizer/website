@@ -25,6 +25,11 @@ enable = true
 avatarURL = "/images/avatar.png"
 title = "Phytolizer"
 subtitle = "Writer of code"
+social = true
+
+[params.social]
+GitHub = "Phytolizer"
+Gitlab = "Phytolizer"
 
 [menu]
 [[menu.main]]
