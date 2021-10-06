@@ -1,0 +1,39 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "loveit"
+enableGitInfo = "true"
+
+[params]
+version = "0.2.X"
+defaultTheme = "dark"
+dateFormat = "2006-01-02"
+
+[params.app]
+title = "Phytolizer.dev"
+noFavicon = false
+
+[params.search]
+enable = true
+type = "lunr"
+highlightTag = "em"
+absoluteURL = true
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+title = "View posts"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+title = "View tags"
+weight = 2
+
+[markup]
+[markup.highlight]
+noClasses = false
