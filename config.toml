@@ -19,6 +19,13 @@ type = "lunr"
 highlightTag = "em"
 absoluteURL = true
 
+[params.home]
+[params.home.profile]
+enable = true
+avatarURL = "/images/avatar.png"
+title = "Phytolizer"
+subtitle = "Writer of code"
+
 [menu]
 [[menu.main]]
 identifier = "posts"
